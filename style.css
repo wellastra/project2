@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Lora:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,400;0,700;1,600&display=swap');
+@import url(reset.css);
+
+
+body{
+     background: #F5980C;
+}
+.header-text {
+    color: #FFF;
+font-family: Lily Script One;
+font-size: 28.306px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    padding-inline:58px;
+    padding-top:23px;
+}
+
+.list-nav {
+    display: flex;
+    gap: 42px ;
+}
+
+.list-item {
+color: black;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.menu {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: -2px;
+    transition: 0.3s;
+}
+
+.menu:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.menu-item{
+    color: #F5980C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 77px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5px;
+    box-sizing: border-box;
+}
+
+.text-photo1 {
+    background: url(quibeez.png);
+    width: 1156px;
+    height: 594px;
+display: flex;
+justify-content: center;
+}
+
+.black-back{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: black;
+}
+
+.all-text1{
+    display: flex;
+    justify-content: center;
+}
+
+.head-text {
+    color: #F5980C;
+font-family: Lily Script One;
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 148px;
+}
+.under-head-text {
+    color: #FFF;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.under-all-text {
+color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: italic;
+font-weight: 600;
+line-height: normal;
+padding-top: 96px;
+}
